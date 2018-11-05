@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\d3-zoomable-sunburst\d3-zoomable-sunburst.js" />
+    <Content Remove="wwwroot\d3-zoomable-sunburst.js" />
+    <Content Remove="wwwroot\index.html" />
+    <Content Remove="wwwroot\package.json" />
+    <Content Remove="wwwroot\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\d3-zoomable-sunburst.js" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\package.json" />
+    <None Include="wwwroot\README.md" />
+  </ItemGroup>
+</Project>
