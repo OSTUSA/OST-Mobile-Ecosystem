@@ -13,11 +13,14 @@
     <Content Remove="wwwroot\d3-zoomable-sunburst.js" />
     <Content Remove="wwwroot\package.json" />
     <Content Remove="wwwroot\README.md" />
-    <Content Remove="wwwroot\js\d3-zoomable-sunburst.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\package.json" />
     <None Include="wwwroot\README.md" />
-    <None Include="wwwroot\js\d3-zoomable-sunburst.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\js\d3-zoomable-sunburst.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
