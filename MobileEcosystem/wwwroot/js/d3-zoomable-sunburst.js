@@ -265,7 +265,7 @@ md`# OST Mobile Ecosystem`
       name: "Integration",
       children: [
         {
-          name: "Authorication",
+          name: "Authorization",
           size: 1
         },
         {
